@@ -1,12 +1,9 @@
-body {
-  max-width: 75vw;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
 html {
   background-color: lightgray;
+}
+
+body {
+  max-width: 75vw;
 }
 
 .main {
@@ -38,13 +35,12 @@ html {
 .todo_list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
+
   gap: 25px;
   list-style-type: none;
 }
 
 .todo_list li {
-  text-align: center;
+  display: block;
   font-size: 35px;
 }
